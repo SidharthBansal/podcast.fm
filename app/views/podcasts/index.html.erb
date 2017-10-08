@@ -1,14 +1,14 @@
-<div id="banner" class+"podcasts_banner">
-	<h1>Discover your new favourite podcast</h1>
+<div id="banner" class="podcasts_banner">
+	<h1>Discover your new favorite podcast</h1>
 </div>
 
 <div id="podcasts" class="cf">
 	<div class="wrapper">
-		<ul>
+		<ul class="cf">
 			<% @podcasts.each do |podcast| %>
 				<%= link_to podcast do %>
 					<li>
-						<img src="images/narwhals.jpg" alt="Narwhals Podcast">
+						<img src="#">
 						<div class="podcast_overview">
 							<h2><%= podcast.title %></h2>
 							<p class="episode_count">1 Episode</p>
@@ -17,5 +17,6 @@
 				<% end %>
 			<% end %>
 		</ul>
+
 	</div>
 </div>
