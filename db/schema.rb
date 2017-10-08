@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171008122532) do
+ActiveRecord::Schema.define(version: 20171008130629) do
 
   create_table "episodes", force: :cascade do |t|
     t.string   "title"
@@ -34,6 +34,11 @@ ActiveRecord::Schema.define(version: 20171008122532) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "title"
+    t.text     "description"
+    t.string   "itunes"
+    t.string   "stitcher"
+    t.string   "podboy"
     t.index ["email"], name: "index_podcasts_on_email", unique: true
     t.index ["reset_password_token"], name: "index_podcasts_on_reset_password_token", unique: true
   end
