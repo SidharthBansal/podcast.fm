@@ -1,40 +1,20 @@
 # README
 
 This podcast covers the following features:
-  1. Create an account: A user can create an account by entering his name, username and password.
-  2. Login: The user can login by entering his username and password. It also features 'forgot password'.
-  3. Create Album: A logged in user can create an album (synonymous to a folder) to upload his episodes
-  4. Upload episodes: Episodes aree podcasts a logged in user uploads.
-  5. Update: A logged in user can create updations to his profile. Updations can be:
+  1. Create an account: Users can create an account by entering their name, username and password.
+  2. Login: The users can login by entering their username and password.
+  3. Create Album: Logged in users can create an album to upload their episodes.
+  4. Upload: Users can upload the podcasts in their respective albums.
+  5. Update: Logged in users can update their profile. Updations can be:
 							a. Rename an album and/or episode
-							b. Delete an episode/album
-							c. Change privacy settings of the episode/album
-							d. Write a bio for the episode
-	6. Comment: A logged in user can post a comment on his or other users' episodes
+							b. Change privacy settings of the episode/album
+							c. Write a bio for the episode
+              d. Update profile information
+	6. Delete: Users can delete their episodes, albums and/or their profile. In case of profile deletion, all user data is also deleted.            Users can only delete their data.
 	
 Other features of the podcast are:
-1. Connection to other social media profiles: Users' can connect on different social networking sites like FaceBook, Instagram, LinkedIn 			etc by clicking on the respective icons provided in a user's profile bio.
+  1. Connection to other social media profiles: Users can connect on different social networking sites like Facebook, Instagram, LinkedIn 			etc. by clicking on the respective icons provided in a user's profile.
 
-2. Bootstrap: Sideline feature but the podcast is bootstrapped to enhance user interface.
+  2. Bootstrap: Podcast is bootstrapped to enhance user interface using bootstrap-sass gem.
              
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+This podcast has been created by: Sidharth Bansal and Shreya Gupta
